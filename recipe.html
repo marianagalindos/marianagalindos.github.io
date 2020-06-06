@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Coca-Cola Rice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            font-family: 'Mali', cursive;
+            font-size: 30px;
+            font-stretch: expanded;
+        }
+
+        #Div1 {
+            background-image: url("Div1Opacity.jpg");
+            padding-top: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 20px;
+            padding: 0px;
+
+        }
+
+        #li1 {
+            float: left;
+            display: block;
+            color: saddlebrown;
+            text-align: center;
+            padding: 0px 105px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 20px;
+            overflow: hidden;
+            background-color: beige;
+        }
+
+        body {
+            background-color: rgb(187, 115, 64);
+            font-family: 'Mali', cursive;
+            letter-spacing: 1px;
+            margin: 0px;
+        }
+
+        h1,
+        h2 {
+            color: saddlebrown;
+            text-align: center;
+        }
+
+        #p1 {
+            color: beige;
+        }
+
+        #Back {
+            text-align: right;
+            color: black;
+        }
+
+        a {
+            color: saddlebrown;
+            text-decoration: none;
+        }
+
+        .Image {
+            max-width: 100%;
+            max-height: 100%;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        #Img1 {
+            float: left;
+            width: 50%;
+            padding: 0px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+
+        }
+
+        #Art1 {
+            float: left;
+            width: 50%;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            height: 370px;
+        }
+
+        #content1 {
+            margin-left: 70px;
+            margin-right: 70px;
+            text-align: center;
+            vertical-align: middle;
+            text-indent: 5px;
+        }
+
+        #Sec1:after {
+            content: "";
+            display: table;
+            clear: both;
+            margin: 0px;
+
+        }
+
+        #Art2 {
+            float: left;
+            width: 50%;
+            background-color: beige;
+            height: 450px;
+        }
+
+        #content2 {
+            text-align: left;
+            vertical-align: middle;
+            text-indent: 5px;
+            margin-left: 70px;
+            margin-right: 70px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            color: saddlebrown;
+        }
+
+        #Img2 {
+            float: left;
+            width: 50%;
+            padding: 0px;
+        }
+
+        #Sec2:after {
+            content: "";
+            display: table;
+            clear: both;
+            margin: 0px;
+        }
+
+        #Img3 {
+            float: left;
+            width: 50%;
+            padding: 0px;
+
+        }
+
+        #Art3 {
+            float: left;
+            width: 50%;
+            height: 370px;
+        }
+
+        #content3 {
+            margin-left: 70px;
+            margin-right: 70px;
+            text-align: justify;
+            vertical-align: middle;
+            text-indent: 5px;
+            color: beige;
+        }
+
+        #Sec3:after {
+            content: "";
+            display: table;
+            clear: both;
+            margin: 0px;
+        }
+
+        #Sec4 {
+            background-color: beige;
+
+        }
+
+        #Art4 {
+            float: left;
+            width: 50%;
+            background-color: beige;
+            height: 450px;
+        }
+
+        #content4 {
+            text-align: left;
+            vertical-align: middle;
+            text-indent: 5px;
+            margin-left: 70px;
+            margin-right: 70px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            color: saddlebrown;
+        }
+
+        #Img4 {
+            float: left;
+            width: 50%;
+            height: 50%;
+            padding: 0px;
+        }
+
+        #Sec4:after {
+            content: "";
+            display: table;
+            clear: both;
+            margin: 0px;
+        }
+
+        .button {
+            border: none;
+            font-family: 'Mali', cursive;
+            color: beige;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: saddlebrown;
+            color: beige;
+            border: 2px solid;
+        }
+
+        .button1:hover {
+            background-color: rgb(187, 115, 64);
+            color: beige;
+        }
+
+        .button2 {
+            background-color: saddlebrown;
+            color: beige;
+            border: 2px solid;
+        }
+
+        .button2:hover {
+            background-color: rgb(187, 115, 64);
+            color: beige;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        footer {
+            background-image: url("Div1Opacity.jpg");
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-right: 0px;
+            margin-left: 0px;
+            font-size: small;
+        }
+    </style>
+
+    <script>
+        function YesClicked() {
+            var Questions = document.getElementById('SecondQuestion');
+            Questions.classList.remove("hidden");
+        }
+
+        function SecondQuestionYesClicked() {
+            var message = document.getElementById('FinalMessage');
+            message.innerText = "Great! Good luck!";
+        }
+
+        function NoClicked() {
+            var message = document.getElementById('FinalMessage');
+            message.innerText = "I am sorry to read this!";
+        }
+
+    </script>>
+</head>
+
+<body>
+    <div id="Div1">
+        <h1><b>Coca-Cola Rice Recipe</b></h1>
+    </div>
+
+    <div>
+        <ul>
+            <li id="li1"><b><a href="#History">History</a></li></b>
+            <li id="li1"><b><a href="#Ingredients">Ingredients</a></li></b>
+            <li id="li1"><b><a href="#Preparation">Preparation</a></li></b>
+            <li id="li1"><b><a href="#Trivia">Trivia</a></li></b>
+        </ul>
+    </div>
+
+    <section id="Sec1">
+        <div id="Img1">
+            <img class="Image" src=".\place.jpg" alt="Tayrona Natural Park">
+        </div>
+
+        <article id="Art1">
+            <div id="content1">
+                <h2 id="History">History</h2>
+                <p id="p1">The origin of the recipe is quite uncertain. But the place where it is popular (the Colombian
+                    Caribbean)
+                    may tell us where it comes from. First, the availability of
+                    ingredients,
+                    coconuts close to the beach, rice from warm-land crops and well… Coca-Cola is everywhere. About
+                    this, I
+                    doubt it was the original ingredient. Probably, it came as a replacement of a sugar cane derived
+                    product
+                    called <i>“panela”</i>. Second, a cultural feature of having rice as a side of almost any dish.
+                    Third, a
+                    little
+                    bit
+                    of the Arabic influence that the region has had throughout years. The combination of sweat and salt
+                    components in meals is a prominent characteristic of Arabic cuisine (think of almond rice). Thus,
+                    probably
+                    as part of the inherited taste, this recipe appeared. </p>
+                <br>
+                <div id="Back"><sub><a href="#Div1">Back</a></sub></div>
+            </div>
+        </article>
+    </section>
+
+    <section id="Sec2">
+        <article id="Art2">
+            <div id="content2">
+                <h2 id="Ingredients"><b>Ingredients</b></h2>
+                <p>You will cook for 4-6 people during 45 minutes with:</p>
+                <ol>
+                    <li>Two cups of long-grain rice</li>
+                    <li>One can of coconout milk</li>
+                    <li>Three cups of regular Coca-Cola</li>
+                    <li>One cup of water</li>
+                    <li>Salt</li>
+                    <li>Half of a medium-size onion</li>
+                    <li>Two spoons of any vegetable oil</li>
+                    <li>Optional: raisins (if you want them softer, soak them in a cup of coffee for a while)</li>
+                </ol>
+                <br>
+                <div id="Back"><sub><a href="#Div1">Back</a></sub></div>
+            </div>
+        </article>
+
+        <div id="Img2">
+            <img class="Image" src=".\Coco.jpg" alt="Coconut">
+        </div>
+    </section>
+
+    <section id="Sec3">
+        <div id="Img3">
+            <img class="Image" src=".\rice.jpg" alt="Rice">
+        </div>
+
+        <article id="Art3">
+            <div id="content3">
+                <h2 id="Preparation">Preparation</h2>
+                <ol>
+                    <li>In a wide pan at high-medium heat, pour the whole can of coconut milk. Let the water to
+                        evaporate, so what is left in the pan is the oil and traces of coconut. This is called
+                        <i>“titoté”</i>.
+                        Stir it, so it gets a caramel-like colour without burning it. Be
+                        patient, it takes a while. </li>
+                    <li>With high heat, add the rice and stir it with the <i>“titoté”</i> during one minute. Add the
+                        Coca-Cola, water, salt, oil and raisins. All the solid ingredients will be covered under the
+                        liquids.</li>
+                    <li>Leave the high heat until you can see the rice and raisins in the surface. Now, settle
+                        a low temperature and cover the rice. Seldomly, check the pan and stir the rice, so it does
+                        not get stuck to the bottom. </li>
+                    <li>Once there is no more water or liquids left serve it warm. Enjoy!</li>
+                </ol>
+                <div id="Back"><sub><a href="#Div1">Back</a></sub></div>
+            </div>
+        </article>
+    </section>
+
+    <section id="Sec4">
+        <article id="Art4">
+            <div id="content4">
+                <h2 id="Trivia"><b>Trivia</b></h2>
+                <p>Did you like the recipe?</p>
+                <button class="button button1" onclick="YesClicked()">Yes</button>
+                <button class="button button2" onclick="NoClicked()">No</button>
+                <br>
+                <div id="SecondQuestion" class="hidden">
+                    <p>Would you cook it soon?</p>
+                    <button class="button button1" onclick="SecondQuestionYesClicked()">Yes</button>
+                    <button class="button button2" onclick="NoClicked()">No</button>
+                </div>
+                <br>
+
+                <p id="FinalMessage"></p>
+
+                <br>
+                <br>
+                <div id="Back"><sub><a href="#Div1">Back</a></sub></div>
+            </div>
+        </article>
+
+        <div id="Img4">
+            <img class="Image" src=".\dishes1.jpg" alt="Dishes">
+        </div>
+    </section>
+    <footer>
+        <p><b>I created this webpage as a result of my learning with the Scottish Charity <i>"Code First Girls"</i>. I
+                chose the topic as a modest way to acknowledge and honour my Colombian background and the discovery of
+                the
+                exotism and familiarity of the dish. Finally, a small legal disclaimer: I do not own any of the images I
+                embedded in the webpage. They may be covered by an academic exemption</b></p>
+        <p>Author: <b><a href="https://www.linkedin.com/in/mariana-galindo-sanchez/" target="_blank">Mariana Galindo
+                    Sanchez</a></b></p>
+    </footer>
+
+    </html>
